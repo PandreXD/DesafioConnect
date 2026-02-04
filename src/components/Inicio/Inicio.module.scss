@@ -1,0 +1,28 @@
+.secaoInicio{
+    display: flex;
+    justify-content: space-around;
+    height: 80vh;
+    border: solid red
+    ;
+
+    .texto{
+        color: #205691;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 80vh;
+        width: 100%;
+        h2{
+            font-size: 8rem;
+            width: 80%;
+            margin-bottom:0.3rem;
+            
+        }
+
+        p{
+            font-size: 2.5rem;
+            width: 80%;
+        }
+    }
+}

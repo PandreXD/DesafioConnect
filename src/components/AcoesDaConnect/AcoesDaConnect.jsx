@@ -76,49 +76,7 @@ const [projetos, setProjetos] = useState([
   ))}
 </section>
 
-    {/* <section className={styles.cards}>
-      <article>
-        <img src={Reciclagem} alt="" />
-        <h3>Mutirão de reciclagem</h3>
-        <p>Coletar materiais recicláveis e orientar sobre descarte consciente.</p>
-        <button>Quero participar</button>
-      </article>
-
-      <article>
-        <img src={Tecnologia} alt="" />
-        <h3>Aulas de Tecnologia</h3>
-        <p>Ensinar noções básicas de informática, internet segura e programação. Preparar jovens para o mercado de trabalho digital.</p>
-        <button>Quero participar</button>
-      </article>
-
-      <article>
-        <img src={Inclusao} alt="" />
-        <h3>Esporte</h3>
-        <p>Organizar treinos e jogos que incentivem a participação de todos. Promover disciplina, saúde e trabalho em equipe entre jovens.</p>
-        <button>Quero participar</button>
-      </article>
-
-      <article>
-        <img src={grandeFamilia} alt="" />
-        <h3>Instituto grande familia</h3>
-        <p>Contribua com alimentos não perecíveis e ajude famílias em situação de vulnerabilidade.</p>
-        <button>Quero Doar</button>
-      </article>
-
-      <article>
-        <img src={Escola} alt="" />
-        <h3>Projeto Futuro na Escola</h3>
-        <p>Doe livros, cadernos, lápis, mochilas e canetas para ajudar jovens a continuarem seus estudos com mais estrutura.</p>
-        <button>Quero Doar</button>
-      </article>
-
-      <article>
-        <img src={conectaJovem} alt="" />
-        <h3>Instituto Conecta Jovem</h3>
-        <p>Doe computadores usados, tablets ou celulares em bom estado para permitir que jovens tenham acesso ao mundo digital.</p>
-        <button>Quero Doar</button>
-      </article>
-    </section> */}
+   
     </main>
   )
 }

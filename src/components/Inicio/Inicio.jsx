@@ -7,7 +7,7 @@ export default function Inicio() {
     <h2>Projetos Sociais que trasformam</h2>
     <p>Conectamos sua empresa com projetos sociais impactantes. Juntos, criamos mudanças reais na comunidade.</p>
     </div>
-    <img src={Uniao} alt="" />
+    <img src={Uniao} alt="Mão simbolizando projetos socias" />
    </section>
   )
 }

@@ -29,17 +29,29 @@
     }
 }
 
-@media (min-windth: 201px) and (max-width: 500px){
-    .navBar{
+@media (min-width: 201px) and (max-width: 500px){
+    .navBar {
+    height: 10vh;
+    padding: 0 1rem;
+    justify-content: space-between;
 
-        a{
-            font-size: 0.8rem;
-        }
-        img{
-            height: 4vh;
-        }
-        .perfil{
-            height: 6vh;
-        }
+    .logo {
+      height: 5vh;
     }
+
+    ul {
+      
+      justify-content: space-evenly;
+
+      a {
+        font-size: 0.9rem;
+      }
+    }
+
+    .perfil {
+      width: 4.5vh;
+      height: 4.5vh;
+      border-width: 2px;
+    }
+  }
 }

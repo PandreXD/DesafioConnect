@@ -1,0 +1,67 @@
+.quemSomos{
+    background-image: url("../../assets/backgroundQuemSomos.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50vh;
+    align-items:flex-start;
+    width: 47%;
+    
+
+    
+
+    h2{
+        font-size: 2.5rem;
+        color:#205691;
+        width: 50%;
+        
+    }
+
+    p{
+       
+        font-size: 1.25rem;
+        
+
+    }
+
+
+}
+
+
+
+@media (min-width: 201px) and (max-width: 500px) {
+  .quemSomos {
+    display: flex;
+    justify-content: center;   
+    align-items: center;    
+    background-image: none;   
+  }
+
+  .conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;   
+
+    width: 85%;
+ 
+   h2{
+    width: 100%;
+    text-align: left;
+  
+  p{
+    width: 100%;
+    text-align: left;
+  }
+   }
+}
+}

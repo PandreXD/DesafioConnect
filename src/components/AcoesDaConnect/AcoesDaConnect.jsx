@@ -67,7 +67,7 @@ const [projetos, setProjetos] = useState([
 
     <section className={styles.cards}>
      {projetos.map((projeto) => (
-    <article key={projeto.id}>
+    <article key={projeto.id} className={styles.article}>
       <img src={projeto.imagem} alt={projeto.nome} />
       <h3>{projeto.nome}</h3>
       <p>{projeto.descricao}</p>

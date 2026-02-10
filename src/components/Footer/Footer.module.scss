@@ -10,13 +10,13 @@
 
 
 .blocoDaEsquerda{
-  width: 30%;
+  width: 15%;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 
   img {
-  width: 42px;
+  width: 80px;
   
   }
 
@@ -41,15 +41,19 @@
 
 
 .blocoDaDireita {
-  width: 30%;
+  width: 12%;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
  
+
+ img{
+    width: 15%;
+ }
 }
 
 
-@media (max-width: 768px) {
+@media (min-width: 201px) and (max-width: 500px){
   .footer {
     flex-direction: column;
     height: 180px;

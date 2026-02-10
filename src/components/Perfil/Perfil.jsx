@@ -14,7 +14,7 @@ export default function Perfil() {
           <address>
             <p>Magé, RJ</p>
             <p>wkpedroff@gmail.com</p>
-            <p>Membro des de Janeiro de 2022</p>
+            <p>Membro desde Janeiro de 2022</p>
           </address>
           <ul className={styles.listaInteresses}>
             <li>Educação</li>

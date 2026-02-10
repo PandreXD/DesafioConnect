@@ -68,8 +68,8 @@ const [projetos, setProjetos] = useState([
               projetos.map((projetos) => (
               <article className={styles.cardsDeAcoes} key={projetos.id}>
                   <img src={projetos.imagem} alt={projetos.titulo} />
-                  <h2>{projetos.titulo}</h2>
-                  <p>{projetos.informacao}</p>
+                  <h2>{projetos.nome}</h2>
+                  <p>{projetos.descricao}</p>
                   <button>{projetos.botao}</button>
                   </article>
                     ))

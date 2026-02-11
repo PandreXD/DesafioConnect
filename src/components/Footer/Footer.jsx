@@ -10,21 +10,18 @@ export default function Footer() {
   return (
     <footer className={styles.footer}>
       
-      <section className={styles.blocoDaEsquerda}>
+      <div>
         <img src={Logo} alt="Logo Connect" />
-        <span>Connect</span>
-      </section>
-
-      <div className={styles.center}>
-        <p>&copy; 2026 Vai na Web & Empower. Todos os direitos reservados.</p>
-        <p>Projeto destinado exclusivamente a fins educativos.</p>
+        <h2>Connect</h2>
       </div>
-
-      <section className={styles.blocoDaDireita}>
+   
+        <p className={styles.center}>&copy; 2026 Vai na Web & Empower. Todos os direitos reservados.Projeto destinado exclusivamente a fins educativos.</p>
+        
+      <nav className={styles.blocoDaDireita}>
         <img src={Whats} alt="WhatsApp" />
         <img src={Insta} alt="Instagram" />
         <img src={Linkedin} alt="LinkedIn" />
-      </section>
+      </nav>
 
     </footer>
   )

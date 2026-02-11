@@ -26,3 +26,30 @@
         }
     }
 }
+
+@media (min-width: 201px) and (max-width: 500px){
+    .secaoInicio{
+        flex-direction: column;
+
+        .texto{
+            width: 90%;
+            height: 30vh;
+            text-align: center;
+            align-items: center;
+        h2{
+            font-size: 2rem;
+            width: 70%;
+        }
+
+        p{
+            font-size: 1rem;
+        }
+
+       }
+       img{
+        width: 70%;
+        border-radius: 100%;
+        
+       }
+    }
+}

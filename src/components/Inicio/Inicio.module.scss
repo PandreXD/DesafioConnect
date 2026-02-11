@@ -30,15 +30,18 @@
 @media (min-width: 201px) and (max-width: 500px){
     .secaoInicio{
         flex-direction: column;
+        align-items: center;
 
         .texto{
             width: 90%;
             height: 30vh;
             text-align: center;
             align-items: center;
+
         h2{
             font-size: 2rem;
             width: 70%;
+            padding: 0.8rem;
         }
 
         p{
@@ -47,8 +50,10 @@
 
        }
        img{
-        width: 70%;
+        width: 60%;
         border-radius: 100%;
+        align-items: center;
+        
         
        }
     }
